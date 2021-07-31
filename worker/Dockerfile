@@ -1,5 +1,5 @@
 FROM python:3.9-buster
-RUN apt-get install -y wamerican-insane
+RUN apt-get update && apt-get install -y wamerican-insane
 
 WORKDIR /usr/src/app
 
