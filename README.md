@@ -13,6 +13,8 @@ TODO:
 
 ## `worker` is the image run by worker nodes that takes in a string, transforms it, and then returns it
 
+1. Listens for incoming data on port 3130
+
 TODO:
 
 0. Generate database of homophones
